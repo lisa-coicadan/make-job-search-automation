@@ -16,7 +16,7 @@ The four scenarios are chained together via webhooks and scheduled polling, so t
 
 ## 🗺️ Workflow overview
 
-![All scenarios overview](screenshots/all-scenarios-overview.png)
+<img src="screenshots/all-scenarios-overview.png" alt="All scenarios overview" width="800">
 
 | # | Scenario | Trigger | Role |
 |---|---|---|---|
@@ -31,7 +31,7 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 
 ## Scenario 1 — Filtering & job scraping
 
-![Scenario 1 overview](screenshots/scenario1-overview.png)
+<img src="screenshots/scenario1-overview.png" alt="Scenario 1 overview" width="800">
 
 **Trigger:** manual (or recurring schedule)
 
@@ -49,11 +49,11 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 <details>
 <summary>Screenshots — module configuration</summary>
 
-![Google Sheets & Apify config 1](screenshots/scenario1-googlesheets-apify-config-1.png)
-![Google Sheets & Apify config 2](screenshots/scenario1-googlesheets-apify-config-2.png)
-![Add a Row config](screenshots/scenario1-addrow-config.png)
-![HTTP module config 1](screenshots/scenario1-http-config-1.png)
-![HTTP module config 2](screenshots/scenario1-http-config-2.png)
+<img src="screenshots/scenario1-googlesheets-apify-config-1.png" alt="Google Sheets & Apify config 1" width="400">
+<img src="screenshots/scenario1-googlesheets-apify-config-2.png" alt="Google Sheets & Apify config 2" width="400">
+<img src="screenshots/scenario1-addrow-config.png" alt="Add a Row config" width="400">
+<img src="screenshots/scenario1-http-config-1.png" alt="HTTP module config 1" width="400">
+<img src="screenshots/scenario1-http-config-2.png" alt="HTTP module config 2" width="400">
 
 </details>
 
@@ -63,7 +63,7 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 
 ## Scenario 2 — Job details
 
-![Scenario 2 overview](screenshots/scenario2-overview.png)
+<img src="screenshots/scenario2-overview.png" alt="Scenario 2 overview" width="800">
 
 **Trigger:** webhook received from Scenario 1
 
@@ -78,10 +78,10 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 <details>
 <summary>Screenshots — module configuration & results</summary>
 
-![Apify config 1](screenshots/scenario2-apify-config-1.png)
-![Apify config 2](screenshots/scenario2-apify-config-2.png)
-![Google Sheets config](screenshots/scenario2-googlesheets-config.png)
-![Results in Google Sheets](screenshots/scenario2-results.png)
+<img src="screenshots/scenario2-apify-config-1.png" alt="Apify config 1" width="400">
+<img src="screenshots/scenario2-apify-config-2.png" alt="Apify config 2" width="400">
+<img src="screenshots/scenario2-googlesheets-config.png" alt="Google Sheets config" width="400">
+<img src="screenshots/scenario2-results.png" alt="Results in Google Sheets" width="500">
 
 </details>
 
@@ -91,7 +91,7 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 
 ## Scenario 3 — Contact enrichment
 
-![Scenario 3 overview](screenshots/scenario3-overview.png)
+<img src="screenshots/scenario3-overview.png" alt="Scenario 3 overview" width="800">
 
 **Trigger:** manual
 
@@ -106,10 +106,10 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 <details>
 <summary>Screenshots — module configuration</summary>
 
-![Google Sheets config](screenshots/scenario3-googlesheets-config.png)
-![HTTP module config 1](screenshots/scenario3-http-config-1.png)
-![HTTP module config 2](screenshots/scenario3-http-config-2.png)
-![Google Sheets config 2](screenshots/scenario3-googlesheets-config-2.png)
+<img src="screenshots/scenario3-googlesheets-config.png" alt="Google Sheets config" width="400">
+<img src="screenshots/scenario3-http-config-1.png" alt="HTTP module config 1" width="400">
+<img src="screenshots/scenario3-http-config-2.png" alt="HTTP module config 2" width="400">
+<img src="screenshots/scenario3-googlesheets-config-2.png" alt="Google Sheets config 2" width="400">
 
 </details>
 
@@ -119,7 +119,7 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 
 ## Scenario 4 — Contact update
 
-![Scenario 4 overview](screenshots/scenario4-overview.png)
+<img src="screenshots/scenario4-overview.png" alt="Scenario 4 overview" width="800">
 
 **Trigger:** scheduled (polling BetterContact at regular intervals)
 
@@ -133,8 +133,8 @@ Tools used across the workflow: **Make, Google Sheets, Apify, BetterContact**.
 <details>
 <summary>Screenshots — module configuration</summary>
 
-![Google Sheets config 1](screenshots/scenario4-googlesheets-config-1.png)
-![Google Sheets config 2](screenshots/scenario4-googlesheets-config-2.png)
+<img src="screenshots/scenario4-googlesheets-config-1.png" alt="Google Sheets config 1" width="400">
+<img src="screenshots/scenario4-googlesheets-config-2.png" alt="Google Sheets config 2" width="400">
 
 </details>
 

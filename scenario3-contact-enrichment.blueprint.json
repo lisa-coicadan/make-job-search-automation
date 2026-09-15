@@ -762,7 +762,7 @@
                 "headers": [
                     {
                         "name": "Authorization",
-                        "value": "8664fd9123c2580d670a"
+                        "value": ""
                     }
                 ],
                 "contentType": "json",
